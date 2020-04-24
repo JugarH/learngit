@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>编辑个人资料 - 知乎</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="personInfo.css">
+    <script src="icon/icon3/iconfont.js"></script>
+    <link rel="stylesheet" href="icon/icon2/iconfont.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header">
+            <div class="headerMid">
+                <div class="news">
+                    <img src="images/zhihuTwo.png" alt="">
+                    <ul>
+                        <li class="currentLi"><a>首页</a></li>
+                        <li><a>发现</a></li>
+                        <li><a>等你来答</a></li>
+                    </ul>
+                    <div class="input">
+                        <input type="text" placeholder="在大学如何坚持学英语" class="inputText">
+                        <span class="iconfont icon-search"></span>
+                        <button type="submit" class="submitButton">提问</button>
+                    </div>
+                </div>
+                <div class="person">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-alarm"></use>
+                    </svg>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-sixin"></use>
+                    </svg>
+                    <div class="profilePhoto"></div>
+                    <div class="personDo">
+                        <ul>
+                            <li><a>我的主页</a></li>
+                            <li>创作者中心</li>
+                            <li>设置</li>
+                            <li><a href="login.html">退出</a></li>
+                        </ul>
+                        <div class="point"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var person = document.querySelector('.personDo');
+            var personPhoto = document.querySelector('.profilePhoto');
+            var flag = 0;
+            personPhoto.addEventListener('click', function () {
+                if (flag == 0) {
+                    person.style.display = 'block';
+                    flag = 1;
+                } else {
+                    person.style.display = 'none';
+                    flag = 0;
+                }
+            })
+        </script>
+    </div>
+    <div class="main">
+        <div class="myBackground"></div>
+        <div class="mainLeft">
+            <img src="images/back.jpg" alt="">
+        </div>
+        <div class="mainRight">
+            <div class="myName">Jugar</div>
+            <table>
+                <tr>
+                    <td>性别</td>
+                    <td>男</td>
+                </tr>
+                <tr>
+                    <td>一句话介绍</td>
+                    <td>计算机</td>
+                </tr>
+                <tr>
+                    <td>所在行业</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>个人简介</td>
+                    <td>小白</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

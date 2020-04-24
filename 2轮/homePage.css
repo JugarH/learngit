@@ -1,0 +1,318 @@
+body {
+    background-color: #F6F6F6;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 52px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+}
+
+.headerMid {
+    height: 100%;
+    width: 1002px;
+    margin: 0 auto;
+}
+
+.news {
+    position: relative;
+    float: left;
+    height: 100%;
+    line-height: 52px;
+}
+
+.person {
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 152px;
+    line-height: 52px;
+}
+
+.news img {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    width: 64px;
+    height: 30px;
+}
+
+.news ul {
+    margin-left: 104px;
+    font-size: 15px;
+    color: #8590A6;
+}
+
+.news ul li {
+    float: left;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+.news ul li a:hover {
+    color: #444444;
+}
+
+.currentLi {
+    height: 49px;
+    border-bottom: 3px solid #007AEB;
+    color: #444444;
+    font-weight: bold;
+}
+
+.inputText {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: #F6F6F6;
+    margin-top: -18px;
+    width: 326px;
+    height: 34px;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+    box-shadow: none;
+    outline: none;
+    text-indent: 1em;
+}
+
+.submitButton {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -17px;
+    width: 58px;
+    height: 34px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: #0084FF;
+    color: #fff;
+}
+
+.input {
+    position: relative;
+    left: 332px;
+    height: 100%;
+    width: 402px;
+    line-height: 52px;
+}
+
+.icon-search {
+    position: absolute;
+    left: 298px;
+    color: #8C96AB;
+}
+
+.icon-alarm {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+}
+
+.person svg {
+    font-size: 20px;
+    color: #8590A6;
+    margin-right: 38px;
+    cursor: pointer;
+}
+
+.profilePhoto {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.personDo {
+    position: absolute;
+    top: 62px;
+    right: -42px;
+    width: 117px;
+    height: 168px;
+    color: #8590A6;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+    display: none;
+}
+
+.point {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -10px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid#fff;
+}
+
+.personDo ul li {
+    margin-top: 2px;
+    height: 38px;
+    width: 100%;
+    text-align: center;
+    line-height: 38px;
+    cursor: pointer;
+}
+
+.personDo ul li a {
+    color: #8590A6;
+}
+
+.main {
+    position: relative;
+    top: 64px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.mainLeft {
+    float: left;
+    background-color: #fff;
+}
+
+.mainRight {
+    float: right;
+}
+
+.myDo {
+    width: 298px;
+    height: 158px;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+    background-color: #fff;
+}
+
+.myDoTop {
+    width: 100%;
+    height: 105px;
+    font-size: 12px;
+    text-align: center;
+    color: #444444;
+}
+
+.myDoTop ul {
+    position: relative;
+    top: 20px;
+}
+
+.myDoTop ul li {
+    float: left;
+    margin-right: 32px;
+}
+
+.myDoTop ul li:first-child {
+    margin-left: 20px;
+}
+
+.myDoTop ul li:last-child {
+    margin-right: 0;
+}
+
+.myDoTop img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.myDoBottom {
+    width: 100%;
+    height: 52px;
+    font-size: 14px;
+    color: #8590A6;
+    line-height: 52px;
+    text-align: center;
+    border-top: 1px solid #f6f6f6;
+
+}
+
+.afterDo {
+    float: left;
+    width: 148.5px;
+    border-right: 1px solid #F6F6F6;
+}
+
+.draft {
+    float: right;
+    width: 148.5px;
+}
+
+.creatorCenter {
+    margin-top: 10px;
+    width: 298px;
+    height: 52px;
+    font-size: 14px;
+    line-height: 52px;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.creator {
+    float: left;
+    text-indent: 3em;
+    color: #8590A6;
+}
+
+.goOpen {
+    float: right;
+    color: #0084FF;
+}
+
+.dynamic {
+    width: 694px;
+    height: 95px;
+    background-image: url("images/dynamic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+}
+
+.recommend {
+    margin-top: 10px;
+    width: 694px;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+}
+
+.recommendTop {
+    width: 100%;
+    height: 58px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.recommendTop ul {
+    text-align: center;
+    line-height: 58px;
+    font-size: 16px;
+    color: #1A1A1A;
+}
+
+.currentNews {
+    color: #0084FF;
+}
+
+.recommendTop ul li {
+    float: left;
+    cursor: pointer;
+    margin-right: 46px;
+}
+
+.recommendTop ul li:first-child {
+    margin-left: 22px;
+}

@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1587456907761'); /* IE9 */
+  src: url('iconfont.eot?t=1587456907761#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOwAAsAAAAAB8AAAANkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDKIJ9ATYCJAMMCwgABCAFhG0HNxvEBlFULdpkXww4Lo4kZE1WzFm5o0XnupP7p2Xxdh7v8fD/9/32uff8cbQfDSPmw8RRKwqjLMAoKrSMmgXe0pqmgLbCpCDLsopQjRQ+5K7X53xGjp2eMpuQm5xbAv4tHOhhFxUSNtijiCSt/yeNXL858AHv81yOb4nfVd+yxEKaY/lRL8A4oMD2xCigQAskQY+lD9jQ/dwm0LelLXO13J9BWTIXBeLJaAvKGads6AxdoV2xM8W7gm55LV/AW/D5+DeMMkWrMu+6fVy4MP5s/en63HBZ37xM5we/j4pjIImHyuC9XFQ8ltNXjfnmxrYUylSZpiFQavq29YNHEUSb2T4E+2QvLkrliCl8afVV31NBGwO8AENzxPA1MwPKy42wWNdrcuQD+dWP5Y7yr19R9EceHwNpOmuIYg3PDCBJvxLKGwJDesfqJ0T7xutGhVhLBGlI/7j8LgGTYYF1WoIOIJn9F3R1IaXbCsOrQh09fHyHpBbpR/oPkmq7bh0dMCDOHcVW18Gv3cnP2i2o291lcB/iju3j32g0pLbBIhh4o+Xm0xactPy7IQB3t6mOK/O1Rvin8WsS6SF6vt+0YrPYzwt8INC6jVqYj29LwHKUcjDGPKU8xnW+GsUaPscUpRfGXXppMNv147MRYfufoo8FagM2qJeAG5drYqoLL5cBJm56dPBeL8jjqBXub1cqbcPiwh6JRDMKuHjVDEnZYQTRY6Ily+gkX53+izqslneCKAAA+NxfgjKXWPl/+w6cWwRlR3Ka/euGAwDAy+FlPcY/90vo1gq6Cp1Vf0nVsSc1jemqqSgdpVGpblTegRzlgsm/6Ya53+HhFUj8oSuoEEXHBlXXNpHMMVoGTtDWdYq+I6v9AwssJ7KHQx+AMPWJYuwD1dQ3kcwPWtb+0TaNHPruonbiwG6Y6ozJEnLRfkLjRKGyPVINO09I3/kWpzUBe0GcmgwOuv18ZUUh8RRr0ns9FFGoOApwCfeR70cYc3QkR7oHkXjU66mqJ3WdKICqS4xYBHEh2xNkOCIh5Q0W1cL7TxDtjs/CDbyq5AXCUmZ0NNDV70CsjGEn3q08krqnDQmhIIVFAmgJfuJbxQiKq6cdEYfoOgzIx0Z61E91NXaXNwfvdwj6zLU1StRIrWfzaMKCdTeBAAA=') format('woff2'),
+  url('iconfont.woff?t=1587456907761') format('woff'),
+  url('iconfont.ttf?t=1587456907761') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1587456907761#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sixin:before {
+  content: "\e667";
+}
+
+.icon-alarm:before {
+  content: "\e524";
+}
+

@@ -1,0 +1,352 @@
+body {
+    background-color: #B8E5F8;
+    background-image: url("https://static.zhihu.com/heifetz/assets/sign_bg.db29b0fb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    margin: 44px auto 24px;
+    width: 100%;
+    height: 82px;
+    text-align: center;
+}
+
+.logo img {
+    width: 128px;
+}
+
+.login {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 495px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.codeChoose {
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+
+.noCodeLogin,
+.codeLogin,
+.QRCode {
+    display: inline-block;
+    height: 100%;
+    margin-left: 24px;
+    text-align: center;
+    font-size: 16px;
+    color: #444444;
+    cursor: pointer;
+}
+
+.colorFweightBbttom {
+    border-bottom: 3px solid #0084FF;
+    font-weight: bold;
+    color: #1A1A1A;
+}
+
+.QRCode {
+    float: right;
+    background-image: url("images/HalfQRcode.png");
+    background-size: cover;
+    width: 52px;
+    height: 53px;
+}
+
+.phoneNumber {
+    margin: 24px auto;
+    width: 353px;
+    height: 50px;
+    border-bottom: 1px solid #EBEBEB;
+    font-size: 14px;
+    color: #8590A6;
+}
+
+.chooseNumber {
+    position: relative;
+    top: 15px;
+    left: 0;
+    height: 20px;
+    line-height: 20px;
+}
+
+.phoneArea,
+.enterPhoneNumber {
+    display: inline-block;
+    height: 100%;
+}
+
+.chooseNumber .phoneArea {
+    border-right: 1px solid #EBEBEB;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.phoneArea,
+.enterPhoneNumber,
+.enterVertify {
+    color: #8590A6;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+.enterPhoneNumber:value {
+    color: #8590A6;
+}
+
+.icon-shangxiajiantou {
+    color: #8590A6;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.infoVertify {
+    position: absolute;
+    top: 142px;
+    width: 353px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.getInfoVertify {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #175199;
+    cursor: pointer;
+}
+
+.enterVertify {
+    width: 100%;
+}
+
+.getVoiceVertify {
+    float: right;
+    cursor: pointer;
+}
+
+.codePhoneNumber {
+    position: relative;
+    font-size: 14px;
+    color: #8590A6;
+    text-align: center;
+    display: none;
+}
+
+.codePhoneNumber input {
+    outline: none;
+    border: none;
+    width: 353px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #EBEBEB;
+    color: #8590A6;
+}
+
+.codePhoneNumber .phoneOrMail {
+    margin-top: 10px;
+}
+
+.codePhoneNumber .password {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.eyePassword {
+    position: relative;
+    width: 353px;
+    margin: 0 auto;
+}
+
+.eye {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    cursor: pointer;
+}
+
+.foreignPhone {
+    float: left;
+    color: #175199;
+    cursor: pointer;
+}
+
+.forgetPassword {
+    float: right;
+    cursor: pointer;
+}
+
+.registeredOrLogin {
+    position: absolute;
+    top: 258px;
+    left: 50%;
+    margin-left: -176px;
+    width: 353px;
+    height: 36px;
+    border-radius: 3px;
+    background-color: #0084FF;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.SignContainer-tip {
+    position: absolute;
+    top: 330px;
+    width: 100%;
+    color: grey;
+    font-size: 13px;
+}
+
+.SignContainer-tip>div {
+    width: 353px;
+    margin: 0 auto;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 12px;
+}
+
+.SignContainer-tip a {
+    color: grey;
+}
+
+.Login-socialLogin {
+    position: absolute;
+    top: 376px;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: #8590a6;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.Login-socialButtonGroup {
+    float: right;
+    margin-right: -10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 16px;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.Login-socialButton {
+    cursor: pointer;
+}
+
+.Login-socialIcon {
+    width: 18px;
+    vertical-align: text-bottom;
+    padding-right: 4px;
+}
+
+.qqIcon {
+    width: 14px;
+}
+
+.wechatIcon {
+    width: 16px;
+}
+
+.Button--plain {
+    height: auto;
+    padding: 0;
+    line-height: inherit;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.Button {
+    display: inline-block;
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #8590a6;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #F6F6F6;
+    height: 60px;
+    cursor: pointer;
+}
+
+.downloadMid {
+    height: 100%;
+    width: 353px;
+    margin: 0 auto;
+}
+
+.openGroup {
+    float: left;
+    font-size: 16px;
+    color: #0084FF;
+    line-height: 60px;
+}
+
+
+.downloadApp {
+    float: right;
+    font-size: 16px;
+    color: #0084FF;
+    line-height: 60px;
+}
+
+.openGroupNum,
+.downloadZhihu {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.footer {
+    width: 100%;
+    margin: 40px 0;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 1px 2px #999;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:not(:last-child):after,
+.footer span:not(:last-child):after {
+    content: " \B7 ";
+    white-space: pre;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.police {
+    vertical-align: text-bottom;
+    margin-right: 1px;
+}

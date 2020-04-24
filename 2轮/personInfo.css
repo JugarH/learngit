@@ -1,0 +1,233 @@
+body {
+    background-color: #F6F6F6;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 52px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+}
+
+.headerMid {
+    height: 100%;
+    width: 1002px;
+    margin: 0 auto;
+}
+
+.news {
+    position: relative;
+    float: left;
+    height: 100%;
+    line-height: 52px;
+}
+
+.person {
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 152px;
+    line-height: 52px;
+}
+
+.news img {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    width: 64px;
+    height: 30px;
+}
+
+.news ul {
+    margin-left: 104px;
+    font-size: 15px;
+    color: #8590A6;
+}
+
+.news ul li {
+    float: left;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+.news ul li a:hover {
+    color: #444444;
+}
+
+.currentLi {
+    height: 49px;
+    border-bottom: 3px solid #007AEB;
+    color: #444444;
+    font-weight: bold;
+}
+
+.inputText {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: #F6F6F6;
+    margin-top: -18px;
+    width: 326px;
+    height: 34px;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+    box-shadow: none;
+    outline: none;
+    text-indent: 1em;
+}
+
+.submitButton {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -17px;
+    width: 58px;
+    height: 34px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: #0084FF;
+    color: #fff;
+}
+
+.input {
+    position: relative;
+    left: 332px;
+    height: 100%;
+    width: 402px;
+    line-height: 52px;
+}
+
+.icon-search {
+    position: absolute;
+    left: 298px;
+    color: #8C96AB;
+}
+
+.icon-alarm {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+}
+
+.person svg {
+    font-size: 20px;
+    color: #8590A6;
+    margin-right: 38px;
+    cursor: pointer;
+}
+
+.profilePhoto {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.personDo {
+    position: absolute;
+    top: 62px;
+    right: -42px;
+    width: 117px;
+    height: 168px;
+    color: #8590A6;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+    display: none;
+}
+
+.point {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -10px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid#fff;
+}
+
+.personDo ul li {
+    margin-top: 2px;
+    height: 38px;
+    width: 100%;
+    text-align: center;
+    line-height: 38px;
+    cursor: pointer;
+}
+
+.personDo ul li a {
+    color: #8590A6;
+}
+
+.main {
+    position: relative;
+    top: 52px;
+    left: 50%;
+    margin-left: -501px;
+    width: 1002px;
+    height: 1000px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+}
+
+.myBackground {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-image: url('images/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainLeft {
+    position: absolute;
+    top: 54px;
+    left: 20px;
+    width: 122px;
+    height: 122px;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.mainLeft img {
+    margin-top: 2px;
+    width: 118px;
+    height: 118px;
+    border-radius: 4px;
+}
+
+.mainRight {
+    position: absolute;
+    top: 86px;
+    left: 160px;
+    width: 834px;
+    height: 100px;
+}
+
+.myName {
+    font-size: 18px;
+    color: black;
+}
+
+table tr td {
+    width: 139px;
+    height: 96px;
+    line-height: 96px;
+}
